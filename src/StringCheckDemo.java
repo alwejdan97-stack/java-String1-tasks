@@ -1,12 +1,13 @@
 public class StringCheckDemo {
     public static void main(String[] args){
-        String text = "good morning, how are you?";
+        String text = "your feedback is very important for the company";
         System.out.println(text);
-        System.out.println(text.substring(0,7));
-        System.out.println("replace morning with afternoon :"+ text.replace("morning", "afternoon"));
-        System.out.println("check if contain 'hello' or not: "+ text.contains("hello"));
-        System.out.println("display specific character: "+text.charAt(4));
-        String secondText= "good afternoon";
-        System.out.println("the length of secondText is: "+secondText.length());
+        System.out.println("the length of text is: "+ text.length());
+        String text2 = "try to give your feedback to the company";
+        System.out.println("check if text and text2 are equals: "+ text.equals(text2));
+        System.out.println("display the index of 'y': " + text.indexOf("y"));
+        System.out.println("check if text start with y: "+ text.startsWith("y"));
+        System.out.println("ckeck if text end with y: "+ text.endsWith("y"));
+
     }
 }
