@@ -1,13 +1,11 @@
 public class StringCheckDemo {
     public static void main(String[] args){
-        String text = "your feedback is very important for the company";
+        String text = "Ahmed is employee at HR";
         System.out.println(text);
-        System.out.println("the length of text is: "+ text.length());
-        String text2 = "try to give your feedback to the company";
-        System.out.println("check if text and text2 are equals: "+ text.equals(text2));
-        System.out.println("display the index of 'y': " + text.indexOf("y"));
-        System.out.println("check if text start with y: "+ text.startsWith("y"));
-        System.out.println("ckeck if text end with y: "+ text.endsWith("y"));
-
+        System.out.println("after convert to uppercase: "+ text.toUpperCase());
+        System.out.println("after convert to lowercase: "+ text.toLowerCase());
+        System.out.println("the index of employee is:"+ text.indexOf("employee"));
+        System.out.println("print only the specify: "+ text.substring(text.length()-2, text.length()-1));
+        System.out.println("check if contains i: "+ text.contains("i"));
     }
 }
