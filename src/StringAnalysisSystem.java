@@ -7,8 +7,6 @@ public class StringAnalysisSystem {
         String name= scan.nextLine();
         System.out.println("your name is "+ name);
         System.out.println("the length of your name is: "+ name.length());
-        System.out.println("your name in uppercase is: "+name.toUpperCase());
-        System.out.println("your name in lowercase is: "+name.toLowerCase());
         System.out.println("enter a word or letter to search inside your name ");
         //scan.nextLine();
         String chr= scan.nextLine();
